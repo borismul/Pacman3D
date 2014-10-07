@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: bb9ce2d4be22f9d4a9ed24d71792a9e1
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - levelMap: {fileID: 2800000, guid: 3cb6718efe522a447b47823ae7b00800, type: 3}
+  - cellPrefab: {fileID: 11400000, guid: dea86d80ae01abc45bc33ef725bb025c, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
