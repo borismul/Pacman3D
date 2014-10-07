@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour {
 		// Set Initial Camera Rotation
 		transform.rotation = Quaternion.Euler (new Vector3 (0f, 0f, 0f));
 
-		transform.position = new Vector3 (1f, 4f, 1f);
+		transform.position = new Vector3 (1f, 1f, 1f);
 
 	}
 	#endregion
@@ -159,7 +159,7 @@ public class PlayerController : MonoBehaviour {
 		Vector3 CamAngles = FirstPersonCamera.transform.rotation.eulerAngles;
 
 		// Determining the movement
-		Vector3 Movement=new Vector3((Mathf.Sin (CamAngles.y / 180 * Mathf.PI) * MovementVertical + Mathf.Cos (CamAngles.y / 180 * Mathf.PI) * MovementHorizontal), jumping * 5f, (Mathf.Cos (CamAngles.y / 180 * Mathf.PI) * MovementVertical - Mathf.Sin (CamAngles.y / 180 * Mathf.PI) * MovementHorizontal));
+		Vector3 Movement=new Vector3((Mathf.Sin (CamAngles.y / 180 * Mathf.PI) * MovementVertical + Mathf.Cos (CamAngles.y / 180 * Mathf.PI) * MovementHorizontal),jumping*7f, (Mathf.Cos (CamAngles.y / 180 * Mathf.PI) * MovementVertical - Mathf.Sin (CamAngles.y / 180 * Mathf.PI) * MovementHorizontal));
 
 		// Return the movement
 		return Movement;
@@ -231,7 +231,29 @@ public class PlayerController : MonoBehaviour {
 			   
 	}
 	#endregion
-	
+
+	#region FixedUpdate
+	void FixedUpdate(){
+
+		// When the game is being played this script is runned
+		if (playing) {
+
+
+			// moving the player in the direction of the camera and setting the angular velocity to zero
+			rigidbody.velocity = PlayerMovement ()+ new Vector3 (0f, rigidbody.velocity.y, 0f);
+			rigidbody.angularVelocity = new Vector3 (0f, 0f, 0f);
+
+			if (rigidbody.velocity.y>7f){
+
+				rigidbody.velocity=new Vector3(0f,7f,0f);
+
+			}
+		}
+
+
+	}
+	#endregion
+
 	#region LateUpdate
 	// Update is calles every frame after all physics calculations are done
 	void LateUpdate () {
@@ -241,12 +263,6 @@ public class PlayerController : MonoBehaviour {
 
 		// When the game is being played this script is runned
 		if (playing) {
-
-
-			// moving the player in the direction of the camera and setting the angular velocity to zero
-			rigidbody.velocity = PlayerMovement () + new Vector3 (0f, rigidbody.velocity.y, 0f);
-			rigidbody.angularVelocity = new Vector3 (0f, 0f, 0f);
-
 			FirstPersonCamera.transform.rotation = CameraRotation ();
 		}
 
