@@ -100,10 +100,10 @@
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>C:/Users/Borism/Documents/GitHub/Pacman3D/Pacman/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>C:/Users/Tjitte/Documents/Aerospace Engeneering/2014-2015/EWI3610TU Computer Graphics/Mini project/Pacman3D/Pacman/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.JsonFx">
- <HintPath>C:/Users/Borism/Documents/GitHub/Pacman3D/Pacman/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ <HintPath>C:/Users/Tjitte/Documents/Aerospace Engeneering/2014-2015/EWI3610TU Computer Graphics/Mini project/Pacman3D/Pacman/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
