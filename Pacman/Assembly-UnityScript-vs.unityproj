@@ -92,16 +92,16 @@
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\AstarPathfindingProject\link.xml" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Tjitte/Documents/Aerospace Engeneering/2014-2015/EWI3610TU Computer Graphics/Mini project/Pacman3D/Pacman/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Borism/Documents/GitHub/Pacman3D/Pacman/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>C:/Users/Tjitte/Documents/Aerospace Engeneering/2014-2015/EWI3610TU Computer Graphics/Mini project/Pacman3D/Pacman/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>C:/Users/Borism/Documents/GitHub/Pacman3D/Pacman/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.JsonFx">
- <HintPath>C:/Users/Tjitte/Documents/Aerospace Engeneering/2014-2015/EWI3610TU Computer Graphics/Mini project/Pacman3D/Pacman/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ <HintPath>C:/Users/Borism/Documents/GitHub/Pacman3D/Pacman/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

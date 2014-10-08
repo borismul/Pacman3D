@@ -2,7 +2,8 @@ fileFormatVersion: 2
 guid: 84c6872021e263843863ce4bd9bf06fa
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - coinPrefab: {fileID: 11400000, guid: 85d139f50a085924fb807a7075a43c70, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
