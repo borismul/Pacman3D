@@ -1,23 +1,16 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
 
 public class Maze : MonoBehaviour 
 {
     // Prefabs
     public MazeCell cellPrefab;
 
-    // Instances
+    // Cells
     public MazeCell[,] cells;
-
-    // List of floor cells
-    public List<MazeCell> FloorCells;
 
     public void Initialize()
     {
-        // Initalize new list of floor cells
-        FloorCells = new List<MazeCell>();
-        
         // Load the level map
         Texture2D levelMap = (Texture2D)Resources.Load("Levels/Level2");
 
@@ -31,31 +24,27 @@ public class Maze : MonoBehaviour
         // Loop through each pixel in the levelmap
         for (int i = 0; i < levelMap.width; i++)
         {
-            for (int k = 0; k < levelMap.height; k++)
+            for (int j = 0; j < levelMap.height; j++)
             {
                 // Create cell on the location of the pixel and set the height according to the pixel color
-                cells[i, k] = Instantiate(cellPrefab) as MazeCell;
-                cells[i, k].transform.parent = transform;
-                cells[i, k].name = "Maze Cell (" + i + ", " + k + ")";
-                cells[i, k].transform.localPosition = new Vector3(i, -levelMap.GetPixel(i, k).grayscale * cells[i, k].transform.localScale.y, k);
+                cells[i, j] = Instantiate(cellPrefab) as MazeCell;
+                cells[i, j].transform.parent = transform;
+                cells[i, j].name = "Maze Cell (" + i + ", " + j + ")";
 
                 // If the cell is a floor element
-                if(levelMap.GetPixel(i, k).grayscale > 0)
-                {
+                if(levelMap.GetPixel(i, j).grayscale > 0)
                     // Render floor texture
-                    cells[i, k].transform.GetChild(0).renderer.material.mainTexture = textureFloor;
-
-                    // Add cell to floor cell list
-                    FloorCells.Add(cells[i, k]);
-                }
+                    cells[i, j].transform.GetChild(0).renderer.material.mainTexture = textureFloor;
                 else
-                {
                     // Render wall texture
-                    cells[i, k].transform.GetChild(0).renderer.material.mainTexture = textureWall;
-                }
-    
+                    cells[i, j].transform.GetChild(0).renderer.material.mainTexture = textureWall;
+
+				cells[i, j].transform.localPosition = new Vector3(i*cells[i,j].transform.localScale.x, -levelMap.GetPixel(i, j).grayscale * cells[i, j].transform.localScale.y, j*cells[i,j].transform.localScale.x);
             }
         }
+
+        // Place maze at the center of the screen
+        this.transform.localPosition = new Vector3(-levelMap.width / 2, 0, -levelMap.height / 2);
     }
 
 }

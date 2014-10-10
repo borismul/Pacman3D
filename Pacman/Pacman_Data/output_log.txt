@@ -6,21 +6,1763 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     1998 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
-Loading C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-Platform assembly: C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.291 seconds
+Platform assembly: C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll (this message is harmless)
+Loading C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll into Unity Child Domain
+Platform assembly: C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\Pathfinding.JsonFx.dll (this message is harmless)
+Loading C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
+- Completed reload, in  0.935 seconds
 desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Pacman_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Borism\Documents\Pacman\Pacman_Data\Managed\System.Core.dll (this message is harmless)
+ArgumentException: The thing you want to instantiate is null.
+  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String message) [0x0000d] in C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineObject.cs:105 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original) [0x00000] in C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineObject.cs:90 
+  at GameManager.BeginGame () [0x00031] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:35 
+  at GameManager.Start () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:18 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Update () [0x00000] in C:\Users\Borism\Documents\GitHub\Pacman3D\Pacman\Assets\Scripts\GameManager.cs:24 
+ 
+(Filename: C Line: 0)
+
