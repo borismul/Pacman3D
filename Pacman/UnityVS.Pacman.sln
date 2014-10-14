@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Pacman.CSharp.Editor", "UnityVS.Pacman.CSharp.Editor.csproj", "{36A8DAC8-E423-1372-C55E-853C24D46040}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Pacman.CSharp", "UnityVS.Pacman.CSharp.csproj", "{0CA980FB-52FE-8844-6E80-B5CBC3749795}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Pacman.CSharp.Plugins", "UnityVS.Pacman.CSharp.Plugins.csproj", "{28FFB5D6-EED6-84EA-F875-84A092EBC746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Pacman.CSharp.Editor", "UnityVS.Pacman.CSharp.Editor.csproj", "{36A8DAC8-E423-1372-C55E-853C24D46040}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36A8DAC8-E423-1372-C55E-853C24D46040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36A8DAC8-E423-1372-C55E-853C24D46040}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36A8DAC8-E423-1372-C55E-853C24D46040}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36A8DAC8-E423-1372-C55E-853C24D46040}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0CA980FB-52FE-8844-6E80-B5CBC3749795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0CA980FB-52FE-8844-6E80-B5CBC3749795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CA980FB-52FE-8844-6E80-B5CBC3749795}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -25,6 +21,10 @@ Global
 		{28FFB5D6-EED6-84EA-F875-84A092EBC746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28FFB5D6-EED6-84EA-F875-84A092EBC746}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28FFB5D6-EED6-84EA-F875-84A092EBC746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A8DAC8-E423-1372-C55E-853C24D46040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A8DAC8-E423-1372-C55E-853C24D46040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A8DAC8-E423-1372-C55E-853C24D46040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A8DAC8-E423-1372-C55E-853C24D46040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

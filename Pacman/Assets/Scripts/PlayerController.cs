@@ -2,7 +2,7 @@
 using System.Collections;
 
 #region PlayerController
-public class PlayerController : MonoBehaviour {
+public class Playercontroller : MonoBehaviour {
 
 	#region variables
 	// Public variables
@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour {
 	private Vector3 Rotation = new Vector3 (0f, 0f, 0f);
 	private float SpeedKeyboard=350f;
 	private float SpeedMouse=100f;
-	private bool playing;
+	public bool playing;
 
 	#endregion
 
@@ -96,6 +96,10 @@ public class PlayerController : MonoBehaviour {
 
 		transform.position = new Vector3 (3f, 3f, 3f);
 
+		rigidbody.useGravity = true;
+
+
+
 	}
 	#endregion
 
@@ -106,7 +110,9 @@ public class PlayerController : MonoBehaviour {
 		GameOptionsCanvas.SetActive (false);
 		Screen.showCursor = false;
 		playing = true;
+		rigidbody.useGravity = true;
 
+		
 	}
 	#endregion
 
@@ -120,6 +126,9 @@ public class PlayerController : MonoBehaviour {
 		// Hiding the mouse pointer
 		Screen.showCursor = true;
 
+		rigidbody.useGravity = false;
+
+		
 	}
 	#endregion
 
@@ -237,6 +246,7 @@ public class PlayerController : MonoBehaviour {
 	#region FixedUpdate
 	void FixedUpdate(){
 
+
 		// When the game is being played this script is runned
 		if (playing) {
 
@@ -251,6 +261,12 @@ public class PlayerController : MonoBehaviour {
 
 			}
 		}
+
+		else {
+
+			rigidbody.velocity = new Vector3(0f,0f,0f);
+		}
+
 
 
 	}

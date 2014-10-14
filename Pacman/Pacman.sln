@@ -5,8 +5,6 @@ Project("{898EE50F-F519-B9EE-C232-7E3597CDAD5B}") = "Pacman", "Assembly-CSharp-f
 EndProject
 Project("{898EE50F-F519-B9EE-C232-7E3597CDAD5B}") = "Pacman", "Assembly-CSharp.csproj", "{40DB70B5-49D0-D3BE-18D8-F28CBB156472}"
 EndProject
-Project("{898EE50F-F519-B9EE-C232-7E3597CDAD5B}") = "Pacman", "Assembly-CSharp-Editor.csproj", "{3A7AD044-EE64-F4A4-045E-618C138B222B}"
-EndProject
 Project("{898EE50F-F519-B9EE-C232-7E3597CDAD5B}") = "Pacman", "Assembly-UnityScript-firstpass.unityproj", "{6D7AEE16-E25B-79BC-153D-F7E3A04DE276}"
 EndProject
 Project("{898EE50F-F519-B9EE-C232-7E3597CDAD5B}") = "Pacman", "Assembly-UnityScript.unityproj", "{204087B6-0AAA-7D6B-F7BC-904643B52896}"
@@ -25,10 +23,6 @@ Global
 		{40DB70B5-49D0-D3BE-18D8-F28CBB156472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40DB70B5-49D0-D3BE-18D8-F28CBB156472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40DB70B5-49D0-D3BE-18D8-F28CBB156472}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A7AD044-EE64-F4A4-045E-618C138B222B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A7AD044-EE64-F4A4-045E-618C138B222B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A7AD044-EE64-F4A4-045E-618C138B222B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A7AD044-EE64-F4A4-045E-618C138B222B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6D7AEE16-E25B-79BC-153D-F7E3A04DE276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6D7AEE16-E25B-79BC-153D-F7E3A04DE276}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D7AEE16-E25B-79BC-153D-F7E3A04DE276}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,7 +35,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																											GlobalSection(MonoDevelopProperties) = preSolution
+																																							GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
