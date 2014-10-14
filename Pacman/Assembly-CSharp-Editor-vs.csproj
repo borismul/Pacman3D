@@ -111,9 +111,6 @@
  <Reference Include="Pathfinding.JsonFx">
  <HintPath>C:/Users/Tjitte/Documents/Aerospace Engeneering/2014-2015/EWI3610TU Computer Graphics/Mini project/Pacman3D/Pacman/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.Graphs">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
  <HintPath>C:/Users/Tjitte/Documents/Aerospace Engeneering/2014-2015/EWI3610TU Computer Graphics/Mini project/Pacman3D/Pacman/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
@@ -122,6 +119,9 @@
  </Reference>
  <Reference Include="UnityVS.VersionSpecific">
  <HintPath>C:/Users/Tjitte/Documents/Aerospace Engeneering/2014-2015/EWI3610TU Computer Graphics/Mini project/Pacman3D/Pacman/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

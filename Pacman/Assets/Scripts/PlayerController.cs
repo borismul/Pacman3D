@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour {
 		// Set Initial Camera Rotation
 		transform.rotation = Quaternion.Euler (new Vector3 (0f, 0f, 0f));
 
-		transform.position = new Vector3 (1f, 1f, 1f);
+		transform.position = new Vector3 (3f, 3f, 3f);
 
 	}
 	#endregion
@@ -196,6 +196,8 @@ public class PlayerController : MonoBehaviour {
 	#region Start
 	// Use this for initialization
 	void Start () {
+
+        rigidbody.position = new Vector3(3f, 3f, 3f);
 
 		// Run StartMenu Method
 		StartMenu ();

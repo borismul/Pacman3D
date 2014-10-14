@@ -3,9 +3,13 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour 
 {
-
+    // Prefabs
     public Maze mazePrefab;
-    private Maze mazeInstance;
+    public CoinSpawner coinSpawnerPrefab;
+
+    // Instances
+    private Maze maze;
+    private CoinSpawner coinSpawner;
 
 	// Use this for initialization
 	void Start () 
@@ -15,16 +19,21 @@ public class GameManager : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update () 
+	void FixedUpdate () 
     {
-	
+        coinSpawner.animate();
 	}
 
     private void BeginGame()
     {
         // Create a maze and initialize it.
-        mazeInstance = Instantiate(mazePrefab) as Maze;
-        mazeInstance.name = "Maze";
-        mazeInstance.Initialize();
+        maze = Instantiate(mazePrefab) as Maze;
+        maze.name = "Maze";
+        maze.Initialize();
+
+        // Initialize the coin spawner
+        coinSpawner = Instantiate(coinSpawnerPrefab) as CoinSpawner;
+        coinSpawner.name = "Spawned coins";
+        coinSpawner.Spawn(maze);
     }
 }
