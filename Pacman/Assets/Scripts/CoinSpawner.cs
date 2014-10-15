@@ -10,9 +10,6 @@ public class CoinSpawner : MonoBehaviour
     // Instances
     private Coin coin;
 
-    // Maximum spawned coins
-    private int maxSpawnedCoins = 1000;
-
     // Spawned coin list
     public List<Coin> spawnedCoins;
 
