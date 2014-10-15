@@ -21,9 +21,11 @@ public class aiController : MonoBehaviour {
 
 		if (playercontroller.playing){
 			ray = new Ray (transform.position, (player.transform.position - transform.position).normalized);
+
+
 			if (Physics.Raycast (ray, out hit, Mathf.Infinity) && hit.transform.tag == "Player") {
 
-				seeMe = true;
+				seeMe = true;	
 
 			} else {
 
