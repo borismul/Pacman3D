@@ -37,6 +37,7 @@ public class Playercontroller : MonoBehaviour {
 	public int lives;
 	private int score;
 	public bool playing;
+    private int level = 0;
 
 	#endregion
 
@@ -105,6 +106,11 @@ public class Playercontroller : MonoBehaviour {
 
 		WinMenuCanvas.SetActive (true);
 
+        level++;
+
+        // Pauze game
+        EndPlaying();
+
 	}
 	#endregion
 
@@ -123,6 +129,8 @@ public class Playercontroller : MonoBehaviour {
 		// Hide the StartCanvas
 		StartCanvas.SetActive (false);
 
+        WinMenuCanvas.SetActive(false);
+
 		// The game is being playd so playing is true
 		playing = true;
 		
@@ -136,20 +144,85 @@ public class Playercontroller : MonoBehaviour {
 
 		rigidbody.useGravity = true;
 
-		lives = 3;
+		lives = 5;
 
 		LivesText.text = lives.ToString();
 
 		score = 0;
 
+        level = 0;
+
+        gameManager.enemySpawner.maxEnemies = 1;
+
+        // Reset 
+        spawnedCoins = gameManager.coinSpawner.spawnedCoins.Count;
+
+        foreach (Coin coin in gameManager.coinSpawner.spawnedCoins)
+        {
+            coin.gameObject.SetActiveRecursively(true);
+        }
+
+        foreach (Enemy enemy in gameManager.enemySpawner.spawnedEnemies)
+        {
+            Destroy(enemy.gameObject);
+        }
+        gameManager.enemySpawner.spawnedEnemies = new List<Enemy>();
+        gameManager.enemySpawner.Spawn(gameManager.maze);
 	
 		startgeluid.Play ();
 
 	}
 	#endregion
 
-	#region ContinuePlaying
-	public void ContinuePlaying(){
+    #region NextStage
+    // Void which can be called when game starts playing
+    public void NextStage()
+    {
+
+        // Hide the StartCanvas
+        StartCanvas.SetActive(false);
+
+        WinMenuCanvas.SetActive(false);
+
+        // The game is being playd so playing is true
+        playing = true;
+
+        // Hiding the mouse pointer
+        Screen.showCursor = false;
+
+        // Set Initial Camera Rotation
+        transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, 0f));
+
+        transform.position = new Vector3(3f, 3f, 3f);
+
+        rigidbody.useGravity = true;
+
+        // Reset 
+        spawnedCoins = gameManager.coinSpawner.spawnedCoins.Count;
+
+        foreach (Coin coin in gameManager.coinSpawner.spawnedCoins)
+        {
+            coin.gameObject.SetActiveRecursively(true);
+        }
+
+        foreach (Enemy enemy in gameManager.enemySpawner.spawnedEnemies)
+        {
+            Destroy(enemy.gameObject);
+        }
+        gameManager.enemySpawner.spawnedEnemies = new List<Enemy>();
+
+        gameManager.enemySpawner.maxEnemies++;
+
+        gameManager.enemySpawner.Spawn(gameManager.maze);
+
+        startgeluid.Play();
+
+    }
+    #endregion
+
+
+    #region ContinuePlaying
+    public void ContinuePlaying(){
 
 		StartCanvas.SetActive (false);
 		GameOptionsCanvas.SetActive (false);
@@ -272,7 +345,7 @@ public class Playercontroller : MonoBehaviour {
 	void Start () {
 
 		rigidbody.position = beginPos;
-		Vector3 topviewstart = new Vector3 (transform.position.x, 100f, transform.position.z);
+		Vector3 topviewstart = new Vector3 (transform.position.x - 15, 100f, transform.position.z);
 		topviewCamera.transform.position = topviewstart;
 
 

@@ -14,7 +14,7 @@ public class EnemySpawner : MonoBehaviour
     public List<Enemy> spawnedEnemies;
 
     // Maximum number of enemies
-    private int maxEnemies = 5;
+    public int maxEnemies = 1;
 
     // Enemy target
     Transform Target;
