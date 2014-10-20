@@ -18,7 +18,7 @@ Platform assembly: C:\Users\Tjitte\Documents\Aerospace Engeneering\2014-2015\EWI
 Loading C:\Users\Tjitte\Documents\Aerospace Engeneering\2014-2015\EWI3610TU Computer Graphics\Mini project\Pacman3D\Pacman\Pacman_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: C:\Users\Tjitte\Documents\Aerospace Engeneering\2014-2015\EWI3610TU Computer Graphics\Mini project\Pacman3D\Pacman\Pacman_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Tjitte\Documents\Aerospace Engeneering\2014-2015\EWI3610TU Computer Graphics\Mini project\Pacman3D\Pacman\Pacman_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.152 seconds
+- Completed reload, in  0.062 seconds
 desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
