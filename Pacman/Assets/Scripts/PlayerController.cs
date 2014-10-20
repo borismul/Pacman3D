@@ -27,6 +27,7 @@ public class Playercontroller : MonoBehaviour {
 	public AudioSource startgeluid;
 	public AudioSource coingeluid;
 	public AudioSource doodgeluid;
+	public GameObject topviewCamera;
 
 	// Private variables
 	private Vector3 Rotation = new Vector3 (0f, 0f, 0f);
@@ -268,7 +269,8 @@ public class Playercontroller : MonoBehaviour {
 	void Start () {
 
 		rigidbody.position = beginPos;
-
+		Vector3 topviewstart = new Vector3 (transform.position.x, 100f, transform.position.z);
+		topviewCamera.transform.position = topviewstart;
 
 
 		// Run StartMenu Method
