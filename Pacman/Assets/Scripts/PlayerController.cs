@@ -257,6 +257,9 @@ public class Playercontroller : MonoBehaviour {
 		rigidbody.velocity = Vector3.zero;
 		rigidbody.angularVelocity = Vector3.zero;
 
+        // Reset 
+        spawnedCoins = gameManager.coinSpawner.spawnedCoins.Count;
+
 		foreach(Coin coin in gameManager.coinSpawner.spawnedCoins)
 		{
 			coin.gameObject.SetActiveRecursively(true);
