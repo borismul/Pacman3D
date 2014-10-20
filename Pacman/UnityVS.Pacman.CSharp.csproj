@@ -71,7 +71,6 @@
     <Compile Include="Assets\Scripts\PathMarker.cs" />
     <Compile Include="Assets\Scripts\Playercontroller.cs" />
     <Compile Include="Assets\Scripts\TopViewCameraController.cs" />
-    <Compile Include="Assets\Scripts\aiController.cs" />
     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />

@@ -19,10 +19,17 @@ public class EnemySpawner : MonoBehaviour
     // Enemy target
     Transform Target;
 
+	private Playercontroller playercontroller;
+
     public void setTarget(Transform target)
     {
         this.Target = target;
     }
+
+	public void setPlayerController(Playercontroller playercontroller)
+	{
+		this.playercontroller = playercontroller;
+	}
 
     public void Spawn(Maze maze)
     {
@@ -38,6 +45,7 @@ public class EnemySpawner : MonoBehaviour
             enemy.name = "Enemy: spawned at (" + maze.FloorCells[r].transform.localPosition.x + ", " + maze.FloorCells[r].transform.localPosition.z + ")";
             enemy.transform.localPosition = new Vector3(maze.FloorCells[r].transform.localPosition.x, 4, maze.FloorCells[r].transform.localPosition.z);
             enemy.setTarget(Target);
+			enemy.setPlayerController(playercontroller);
 
             // Add coin to the list
             spawnedEnemies.Add(enemy);

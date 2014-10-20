@@ -7,11 +7,12 @@ public class GameManager : MonoBehaviour
     public Maze mazePrefab;
     public CoinSpawner coinSpawnerPrefab;
     public EnemySpawner enemySpawnerPrefab;
+	public Playercontroller playercontroller;
 
     // Instances
-    private Maze maze;
-    private CoinSpawner coinSpawner;
-    private EnemySpawner enemySpawner;
+	public Maze maze;
+	public CoinSpawner coinSpawner;
+	public EnemySpawner enemySpawner;
 
 	// Use this for initialization
 	void Start () 
@@ -42,6 +43,10 @@ public class GameManager : MonoBehaviour
         enemySpawner = Instantiate(enemySpawnerPrefab) as EnemySpawner;
         enemySpawner.name = "Spawned enemies";
         enemySpawner.setTarget(GameObject.FindGameObjectWithTag("Player").transform);
+		enemySpawner.setPlayerController (playercontroller);
         enemySpawner.Spawn(maze);
+
+		playercontroller.setCoinList (coinSpawner.spawnedCoins.Count);
+
     }
 }

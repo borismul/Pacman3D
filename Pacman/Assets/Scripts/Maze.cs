@@ -23,7 +23,7 @@ public class Maze : MonoBehaviour
         FloorCells = new List<MazeCell>();
 
         // Load the level map
-        Texture2D levelMap = (Texture2D)Resources.Load("Levels/Level2");
+		Texture2D levelMap = (Texture2D)Resources.Load("Levels/GoterLevel");
 
         // Set width and height
         width = levelMap.width;

@@ -1,5 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using System.Collections.Generic;
+using System.IO;
+
+
 
 #region PlayerController
 public class Playercontroller : MonoBehaviour {
@@ -11,12 +16,25 @@ public class Playercontroller : MonoBehaviour {
 	public GameObject StartCanvas;
 	public GameObject GameOptionsCanvas;
 	public GameObject InGameOptionsCanvas;
-
+	public GameObject GameOverMenu;
+	public GameObject HUD;
+	public GameObject WinMenuCanvas;
+	public Text LivesText;
+	public Text Score;
+	public Text Highscore;
+	public int spawnedCoins;
+	public GameManager gameManager;
+	public AudioSource startgeluid;
+	public AudioSource coingeluid;
+	public AudioSource doodgeluid;
 
 	// Private variables
 	private Vector3 Rotation = new Vector3 (0f, 0f, 0f);
 	private float SpeedKeyboard=350f;
 	private float SpeedMouse=100f;
+	private Vector3 beginPos = new Vector3(3f,3f,3f);
+	public int lives;
+	private int score;
 	public bool playing;
 
 	#endregion
@@ -30,6 +48,7 @@ public class Playercontroller : MonoBehaviour {
 
 		// Disable GameOptionsCanvas
 		GameOptionsCanvas.SetActive (false);
+		GameOverMenu.SetActive (false);
 
 		// Not playing so turn playing is set to false
 		playing = false;
@@ -72,9 +91,27 @@ public class Playercontroller : MonoBehaviour {
 	// Void which is runned when the player is gameover
 	void GameoverMenu() {
 
+		GameOverMenu.SetActive (true);
+
 		// Pauze game
 		EndPlaying ();
 
+	}
+	#endregion
+
+	#region WinMenu
+	public void WinMenu(){
+
+		WinMenuCanvas.SetActive (true);
+
+	}
+	#endregion
+
+	#region SetCoinList
+	public void setCoinList(int coins){
+
+		spawnedCoins = coins;
+		
 	}
 	#endregion
 
@@ -98,7 +135,14 @@ public class Playercontroller : MonoBehaviour {
 
 		rigidbody.useGravity = true;
 
+		lives = 3;
 
+		LivesText.text = lives.ToString();
+
+		score = 0;
+
+	
+		startgeluid.Play ();
 
 	}
 	#endregion
@@ -197,8 +241,25 @@ public class Playercontroller : MonoBehaviour {
 	#region Reset
 	public void Reset(){
 
+		transform.position = beginPos;
+		rigidbody.velocity = Vector3.zero;
+		rigidbody.angularVelocity = Vector3.zero;
 
 
+	}
+	#endregion
+
+	#region HardReset
+	public void HardReset(){
+		
+		transform.position = beginPos;
+		rigidbody.velocity = Vector3.zero;
+		rigidbody.angularVelocity = Vector3.zero;
+
+		foreach(Coin coin in gameManager.coinSpawner.spawnedCoins)
+		{
+			coin.gameObject.SetActiveRecursively(true);
+		}
 	}
 	#endregion
 
@@ -206,11 +267,57 @@ public class Playercontroller : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        rigidbody.position = new Vector3(3f, 3f, 3f);
+		rigidbody.position = beginPos;
+
+
 
 		// Run StartMenu Method
 		StartMenu ();
 	}
+	#endregion
+
+	#region OnTriggerEnter
+	void OnTriggerEnter(Collider other){
+
+		if (other.gameObject.tag == "Coin") {
+
+			score = score + 10;
+			coingeluid.Play();
+			other.gameObject.SetActive (false);
+			spawnedCoins--;
+
+			if (spawnedCoins == 0) {
+			
+					WinMenu ();
+			}
+		}
+	}
+	#endregion
+
+	#region OnCollisionEnter
+	public void OnCollisionEnter(Collision other){
+
+		if (other.gameObject.tag == "Enemy") {
+
+			Reset ();
+			lives--;
+			LivesText.text = lives.ToString();
+			doodgeluid.Play ();
+
+			if (lives == 0){
+
+
+				GameoverMenu();
+
+			}
+
+		}
+
+
+
+	}
+
+
 	#endregion
 
 	#region Update
@@ -230,6 +337,11 @@ public class Playercontroller : MonoBehaviour {
 
 		}
 
+		if(PlayerPrefs.GetInt("HScore") < score)
+			PlayerPrefs.SetInt("HScore", score);
+		
+		Highscore.text = PlayerPrefs.GetInt("HScore").ToString();
+		Score.text = score.ToString();
 
 		// If escape is pressed and Gameoptions active and is not just turned on it will turn it off
 		if(Input.GetKeyDown (KeyCode.Escape) && GameOptionsCanvas.activeSelf && !GameoptionOnThisFrame){
